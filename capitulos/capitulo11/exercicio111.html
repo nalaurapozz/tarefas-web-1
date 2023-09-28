@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style111.css">
+</head>
+
+<body>
+  
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos para telas menores que 500px */
+        @media screen and (max-width: 500px) {
+            .container {
+                display: block;
+                background-color: #00ff00; /* Cor para telas menores que 500px (verde) */
+            }
+        }
+
+        /* Estilos para telas de 501px a 700px */
+        @media screen and (min-width: 501px) and (max-width: 700px) {
+            .container {
+                display: inline-block;
+                width: 30%; /* Divs ocupam 30% da largura da tela */
+                background-color: #ff0000; /* Cor para telas entre 501px e 700px (vermelho) */
+            }
+        }
+
+        /* Estilos para telas maiores ou iguais a 700px */
+        @media screen and (min-width: 700px) {
+            .container {
+                display: inline-block;
+                width: 20%; /* Divs ocupam 20% da largura da tela */
+                background-color: #0000ff; /* Cor para telas iguais ou maiores que 700px (azul) */
+            }
+        }
+
+        /* Estilos comuns para todas as divs */
+        .container {
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            color: #fff; /* Cor do texto dentro das divs (branco) */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">Div 1</div>
+    <div class="container">Div 2</div>
+    <div class="container">Div 3</div>
+</body>
+</html>
