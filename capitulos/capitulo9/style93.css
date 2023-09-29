@@ -1,0 +1,35 @@
+body { margin: 0% }
+
+.div1 { 
+    background-color: red;
+    height: 110px;
+    width: 110px;
+    float: left;     
+}
+
+.div2 {
+    background-color: yellow;
+    float: right;
+    height: 110px;
+    width: 110px;
+}
+
+.espaco {
+    float: left;
+    height: 300px;
+    width: 100%;
+}
+
+.div3 { 
+    background-color: green;
+    height: 110px;
+    width: 110px;
+    float: left;     
+}
+
+.div4 {
+    background-color: blue;
+    float: right;
+    height: 110px;
+    width: 110px;
+}
